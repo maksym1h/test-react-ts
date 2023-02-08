@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.card {
+  width: 250px;
+  border: 1px lightgrey solid;
+  border-radius: 10px;
+  margin: 15px;
+  padding-bottom: 10px;
+}
+
+.card > img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.page-item {
+  list-style: none;
+  display: inline-block;
+  margin: 0 0.5rem;
+}
+
+.page-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.page-link:hover,
+.page-link.active {
+  background-color: lightgray;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+.button:hover {
+  background-color: #3e8e41;
+}
+
+.button:active {
+  background-color: #3e8e41;
+  transform: translateY(2px);
+}
